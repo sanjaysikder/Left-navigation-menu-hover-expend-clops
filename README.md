@@ -43,16 +43,4 @@ The JavaScript file adds event listeners to the navigation menu items:
 - Uses APEX's built-in CSS classes (`t-Nav-listItem--isExpanded`) for seamless integration
 - Includes a MutationObserver to handle dynamic content updates
 
-## Customization Options
-To modify the behavior:
-1. Edit the `menu_nav.main.js` file
-2. Adjust the following parameters:
-   ```javascript
-   // Expansion delay in milliseconds
-   const EXPAND_DELAY = 200;
-   
-   // Collapse delay in milliseconds
-   const COLLAPSE_DELAY = 300;
-   
-   // Enable debug mode (shows console logs)
-   const DEBUG = false;
+## Thank You
